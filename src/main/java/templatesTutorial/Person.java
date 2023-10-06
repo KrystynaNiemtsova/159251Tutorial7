@@ -6,11 +6,11 @@ public class Person {
 	private String name = null;
 	private Gender gender = Gender.MALE;
 	private Address address = null;
-	
+
 	public Person() {
 		super();
 	}
-	
+
 	public Person(String firstName, String name, Gender gender,Address address) {
 		super();
 		this.firstName = firstName;
@@ -18,7 +18,7 @@ public class Person {
 		this.gender = gender;
 		this.address = address;
 	}
-	
+
 	@Override
 	public int hashCode() {
 		final int prime = 31;
@@ -80,7 +80,7 @@ public class Person {
 	public void setAddress(Address address) {
 		this.address = address;
 	}
-	
+
 
 
 }

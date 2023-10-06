@@ -21,10 +21,10 @@ public class CreateSampleData {
 		};
 		List<Person> list = new ArrayList<Person>();
 		for (Person p:persons) list.add(p);
-		
+
 		XMLEncoder e = new XMLEncoder(
-			    new BufferedOutputStream(
-			        new FileOutputStream("friends.xml")));
+				new BufferedOutputStream(
+						new FileOutputStream("friends.xml")));
 		e.writeObject(list);
 		e.close();
 	}

@@ -5,7 +5,7 @@ public class Address {
 	private int number = 0;
 	private String street = null;
 	private String town = null;
-	
+
 	public Address() {
 		super();
 	}
@@ -15,7 +15,7 @@ public class Address {
 		this.street = street;
 		this.town = town;
 	}
-	
+
 	@Override
 	public int hashCode() {
 		final int prime = 31;
@@ -66,7 +66,7 @@ public class Address {
 	public void setTown(String town) {
 		this.town = town;
 	}
-	
-	
+
+
 
 }
